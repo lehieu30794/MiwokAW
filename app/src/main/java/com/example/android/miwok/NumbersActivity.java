@@ -33,9 +33,7 @@ public class NumbersActivity extends AppCompatActivity {
 
         LinearLayout rootView = (LinearLayout) findViewById(R.id.rootView);
 
-        int index = 0;
-
-        while (index < words.size()) {
+        for (int index = 0; index < words.size(); index++) {
 
 //        Using context as constructor
             TextView wordView = new TextView(this);
@@ -43,7 +41,6 @@ public class NumbersActivity extends AppCompatActivity {
 //        Use addView method from LinearLayout object to add the variable wordView to the rootView as a child view
             rootView.addView(wordView);
 
-            index++;
         }
     }
 }
