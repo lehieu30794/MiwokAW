@@ -44,13 +44,16 @@ public class NumbersActivity extends AppCompatActivity {
         words.add("ten");*/
 
 //        Constructor with 3 inputs
-        ArrayAdapter<Word> itemsAdapter = new ArrayAdapter<Word>(this,
-                R.layout.list_item, words);
+
+        WordAdapter adapter = new WordAdapter(this, words);
+
+       /* ArrayAdapter<Word> itemsAdapter = new ArrayAdapter<Word>(this,
+                R.layout.list_item, words);*/
 
         ListView listView = (ListView) findViewById(R.id.list);
 
 //        Implements interface ListAdapter named itemsAdapter (Android team has already created)
 //        ArrayAdapter is subclass of BaseAdapter and Base Adapter implements ListAdapter interface => BaseAdapter can use anywhere requires ListAdapter; the same for ArrayAdapter
-        listView.setAdapter(itemsAdapter);
+        listView.setAdapter(adapter);
     }
 }
