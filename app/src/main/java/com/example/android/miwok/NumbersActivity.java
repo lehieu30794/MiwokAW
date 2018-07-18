@@ -20,9 +20,19 @@ public class NumbersActivity extends AppCompatActivity {
         setContentView(R.layout.activity_numbers);
 
 //        Create an arraylist of words; the first line is to call the constructor
-        ArrayList<String> words = new ArrayList<String>();
+        ArrayList<Word> words = new ArrayList<Word>();
 
-        words.add("one");
+        words.add(new Word ("One", "lutti"));
+        words.add(new Word ("Two", "otiiko"));
+        words.add(new Word ("Three", "otiiko"));
+        words.add(new Word ("Four", "otiiko"));
+        words.add(new Word ("Five", "otiiko"));
+        words.add(new Word ("Six", "otiiko"));
+        words.add(new Word ("Seven", "otiiko"));
+        words.add(new Word ("Eight", "otiiko"));
+        words.add(new Word ("Nine", "otiiko"));
+        words.add(new Word ("Ten", "otiiko"));
+        /*words.add("one");
         words.add("two");
         words.add("three");
         words.add("four");
@@ -31,10 +41,10 @@ public class NumbersActivity extends AppCompatActivity {
         words.add("seven");
         words.add("eight");
         words.add("nine");
-        words.add("ten");
+        words.add("ten");*/
 
 //        Constructor with 3 inputs
-        ArrayAdapter<String> itemsAdapter = new ArrayAdapter<String>(this,
+        ArrayAdapter<Word> itemsAdapter = new ArrayAdapter<Word>(this,
                 R.layout.list_item, words);
 
         ListView listView = (ListView) findViewById(R.id.list);
