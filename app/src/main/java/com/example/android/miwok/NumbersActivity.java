@@ -35,7 +35,7 @@ public class NumbersActivity extends AppCompatActivity {
 
         int index = 0;
 
-        while (index < 10) {
+        while (index < words.size()) {
 
 //        Using context as constructor
             TextView wordView = new TextView(this);
