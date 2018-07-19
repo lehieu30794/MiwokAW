@@ -43,7 +43,7 @@ public class NumbersActivity extends AppCompatActivity {
         words.add("nine");
         words.add("ten");*/
 
-//        Constructor with 3 inputs
+//        Constructor with 3 inputs; ArrayAdapter requires a single TextView
 
         WordAdapter adapter = new WordAdapter(this, words);
 
