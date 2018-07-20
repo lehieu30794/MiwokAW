@@ -6,8 +6,8 @@ public class Family {
     private String mDefaultFamily;
 
     public Family(String a, String b) {
-        mMiwokFamily = a;
-        mDefaultFamily = b;
+        mDefaultFamily = a;
+        mMiwokFamily = b;
 
         /*Interesting! Cannot do it the reverse way like this
 
