@@ -24,14 +24,14 @@ public class NumbersActivity extends AppCompatActivity {
 
         words.add(new Word ("One", "lutti"));
         words.add(new Word ("Two", "otiiko"));
-        words.add(new Word ("Three", "otiiko"));
-        words.add(new Word ("Four", "otiiko"));
-        words.add(new Word ("Five", "otiiko"));
-        words.add(new Word ("Six", "otiiko"));
-        words.add(new Word ("Seven", "otiiko"));
-        words.add(new Word ("Eight", "otiiko"));
-        words.add(new Word ("Nine", "otiiko"));
-        words.add(new Word ("Ten", "otiiko"));
+        words.add(new Word ("Three", "tolookosu"));
+        words.add(new Word ("Four", "oyyisa"));
+        words.add(new Word ("Five", "massokka"));
+        words.add(new Word ("Six", "temmokka"));
+        words.add(new Word ("Seven", "kenekaku"));
+        words.add(new Word ("Eight", "kawinta"));
+        words.add(new Word ("Nine", "wo’e"));
+        words.add(new Word ("Ten", "na’aacha"));
         /*words.add("one");
         words.add("two");
         words.add("three");

@@ -17,7 +17,17 @@ public class FamilyActivity extends AppCompatActivity {
         ArrayList<Family> familyItems = new ArrayList<Family>();
 
 
-        familyItems.add(new Family("Aasdf","Basdf"));
+        familyItems.add(new Family("father","әpә"));
+        familyItems.add(new Family("mother","әṭa"));
+        familyItems.add(new Family("son","angsi"));
+        familyItems.add(new Family("daugher","tune"));
+        familyItems.add(new Family("older brother","taachi"));
+        familyItems.add(new Family("younger brother","chalitti"));
+        familyItems.add(new Family("older sister","teṭe"));
+        familyItems.add(new Family("younger sister","kolliti"));
+        familyItems.add(new Family("gandmother","ama"));
+        familyItems.add(new Family("grandfather","paapa"));
+
 
       /*  familyMembers.add("father");
         familyMembers.add("mother");
