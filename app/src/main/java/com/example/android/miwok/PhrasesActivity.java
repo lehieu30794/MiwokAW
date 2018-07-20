@@ -2,6 +2,7 @@ package com.example.android.miwok;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.widget.Adapter;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
 
@@ -14,8 +15,11 @@ public class PhrasesActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_phrases);
 
-        ArrayList<String> phrasesItem = new ArrayList<>();
-        phrasesItem.add("Where are you going?");
+        ArrayList<Phrase> phrases = new ArrayList<Phrase>();
+
+        phrases.add(new Phrase ("abc", "def"));
+
+/*        phrasesItem.add("Where are you going?");
         phrasesItem.add("What is your name?");
         phrasesItem.add("My name is...");
         phrasesItem.add("How are you feeling?");
@@ -24,9 +28,9 @@ public class PhrasesActivity extends AppCompatActivity {
         phrasesItem.add("Yes, I’m coming.");
         phrasesItem.add("I’m coming.");
         phrasesItem.add("Let’s go.");
-        phrasesItem.add("Come here.");
+        phrasesItem.add("Come here.");*/
 
-        ArrayAdapter<String> phrasesAdapter = new ArrayAdapter<>(this, android.R.layout.simple_list_item_1, phrasesItem);
+        PhraseAdapter phrasesAdapter = new PhraseAdapter (this, phrases);
 
         ListView phrasesListView = (ListView) findViewById(R.id.phrases_list);
         phrasesListView.setAdapter(phrasesAdapter);
