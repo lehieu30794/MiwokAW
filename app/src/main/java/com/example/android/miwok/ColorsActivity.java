@@ -17,13 +17,13 @@ public class ColorsActivity extends AppCompatActivity {
         ArrayList<Color> colors = new ArrayList<Color>();
 
         colors.add(new Color ("red", "weṭeṭṭi"));
-        colors.add(new Color ("red", "weṭeṭṭi"));
-        colors.add(new Color ("red", "weṭeṭṭi"));
-        colors.add(new Color ("red", "weṭeṭṭi"));
-        colors.add(new Color ("red", "weṭeṭṭi"));
-        colors.add(new Color ("red", "weṭeṭṭi"));
-        colors.add(new Color ("red", "weṭeṭṭi"));
-        colors.add(new Color ("red", "weṭeṭṭi"));
+        colors.add(new Color ("green", "chokokki"));
+        colors.add(new Color ("brown", "ṭakaakki"));
+        colors.add(new Color ("gray", "ṭopoppi"));
+        colors.add(new Color ("black", "kululli"));
+        colors.add(new Color ("white", "kelelli"));
+        colors.add(new Color ("dusty yellow", "ṭopiisә"));
+        colors.add(new Color ("mustard yellow", "chiwiiṭә"));
 
         ColorAdapter itemAdapter = new ColorAdapter(this, colors);
 
