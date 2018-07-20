@@ -5,6 +5,7 @@ public class Family {
     private String mMiwokFamily;
     private String mDefaultFamily;
 
+    //    Don't understand why switching this position let MiwokPhrase appear on top of DefaultPhrase. Should be otherway around according to the order
     public Family(String a, String b) {
         mDefaultFamily = a;
         mMiwokFamily = b;
