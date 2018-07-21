@@ -10,7 +10,11 @@ public class Word {
 
     private String mMiwokTranslation;
 
-    private int mImageResourceId;
+    private int mImageResourceId = NO_IMAGE_PROVIDED;
+
+// Create a constant which indicates no Image state
+    private static final int NO_IMAGE_PROVIDED = -1;
+
 
     private Context mContext;
 
@@ -38,6 +42,11 @@ public class Word {
 
     public int getImageResrouceId(){
         return mImageResourceId;
+    }
+// Return if has image
+    public boolean hasImage(){
+        return mImageResourceId != NO_IMAGE_PROVIDED;
+
     }
 
 
