@@ -14,19 +14,19 @@ public class FamilyActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_family);
 
-        ArrayList<Family> familyItems = new ArrayList<Family>();
+        ArrayList<Word> familyItems = new ArrayList<Word>();
 
 
-        familyItems.add(new Family("father","әpә"));
-        familyItems.add(new Family("mother","әṭa"));
-        familyItems.add(new Family("son","angsi"));
-        familyItems.add(new Family("daugher","tune"));
-        familyItems.add(new Family("older brother","taachi"));
-        familyItems.add(new Family("younger brother","chalitti"));
-        familyItems.add(new Family("older sister","teṭe"));
-        familyItems.add(new Family("younger sister","kolliti"));
-        familyItems.add(new Family("gandmother","ama"));
-        familyItems.add(new Family("grandfather","paapa"));
+        familyItems.add(new Word("father","әpә"));
+        familyItems.add(new Word("mother","әṭa"));
+        familyItems.add(new Word("son","angsi"));
+        familyItems.add(new Word("daugher","tune"));
+        familyItems.add(new Word("older brother","taachi"));
+        familyItems.add(new Word("younger brother","chalitti"));
+        familyItems.add(new Word("older sister","teṭe"));
+        familyItems.add(new Word("younger sister","kolliti"));
+        familyItems.add(new Word("gandmother","ama"));
+        familyItems.add(new Word("grandfather","paapa"));
 
 
       /*  familyMembers.add("father");
@@ -40,7 +40,7 @@ public class FamilyActivity extends AppCompatActivity {
         familyMembers.add("grandmother");
         familyMembers.add("grandfather");*/
 
-        FamilyAdapter itemAdapter = new FamilyAdapter(this,familyItems);
+        WordAdapter itemAdapter = new WordAdapter(this,familyItems);
         /*Interesting! Delete the data type before coding; probably because the FamilyAdapter was modified without requiring data type input
         FamilyAdapter<familyList> itemAdapter = new ArrayAdapter<familyList>(this, familyList);*/
 

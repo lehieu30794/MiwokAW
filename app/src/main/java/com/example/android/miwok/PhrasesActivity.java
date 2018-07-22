@@ -15,18 +15,18 @@ public class PhrasesActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_phrases);
 
-        ArrayList<Phrase> phrases = new ArrayList<Phrase>();
+        ArrayList<Word> phrases = new ArrayList<Word>();
 
-        phrases.add(new Phrase("Where are you going?","minto wuksus"));
-        phrases.add(new Phrase("What is your name?","tinnә oyaase'nә"));
-        phrases.add(new Phrase("My name is...","oyaaset..."));
-        phrases.add(new Phrase("How are you feeling?","michәksәs?"));
-        phrases.add(new Phrase("I’m feeling good.","kuchi achit"));
-        phrases.add(new Phrase("Are you coming?","әәnәs'aa?"));
-        phrases.add(new Phrase("Yes, I’m coming.","hәә’ әәnәm"));
-        phrases.add(new Phrase("I’m coming.","әәnәm"));
-        phrases.add(new Phrase("Let’s go.","yoowutis"));
-        phrases.add(new Phrase("Come here.","әnni'nem"));
+        phrases.add(new Word("Where are you going?","minto wuksus"));
+        phrases.add(new Word("What is your name?","tinnә oyaase'nә"));
+        phrases.add(new Word("My name is...","oyaaset..."));
+        phrases.add(new Word("How are you feeling?","michәksәs?"));
+        phrases.add(new Word("I’m feeling good.","kuchi achit"));
+        phrases.add(new Word("Are you coming?","әәnәs'aa?"));
+        phrases.add(new Word("Yes, I’m coming.","hәә’ әәnәm"));
+        phrases.add(new Word("I’m coming.","әәnәm"));
+        phrases.add(new Word("Let’s go.","yoowutis"));
+        phrases.add(new Word("Come here.","әnni'nem"));
 
 /*        phrasesItem.add("Where are you going?");
         phrasesItem.add("What is your name?");
@@ -39,7 +39,7 @@ public class PhrasesActivity extends AppCompatActivity {
         phrasesItem.add("Let’s go.");
         phrasesItem.add("Come here.");*/
 
-        PhraseAdapter phrasesAdapter = new PhraseAdapter (this, phrases);
+        WordAdapter phrasesAdapter = new WordAdapter (this, phrases);
 
         ListView phrasesListView = (ListView) findViewById(R.id.phrases_list);
         phrasesListView.setAdapter(phrasesAdapter);
