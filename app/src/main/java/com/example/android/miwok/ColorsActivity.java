@@ -16,14 +16,14 @@ public class ColorsActivity extends AppCompatActivity {
 
         ArrayList<Word> colors = new ArrayList<Word>();
 
-        colors.add(new Word ("red", "weṭeṭṭi", R.drawable.number_one));
-        colors.add(new Word ("green", "chokokki", R.drawable.number_one));
-        colors.add(new Word ("brown", "ṭakaakki", R.drawable.number_one));
-        colors.add(new Word ("gray", "ṭopoppi", R.drawable.number_one));
-        colors.add(new Word ("black", "kululli", R.drawable.number_one));
-        colors.add(new Word ("white", "kelelli", R.drawable.number_one));
-        colors.add(new Word ("dusty yellow", "ṭopiisә", R.drawable.number_one));
-        colors.add(new Word ("mustard yellow", "chiwiiṭә", R.drawable.number_one));
+        colors.add(new Word ("red", "weṭeṭṭi", R.drawable.number_one, R.raw.number_one));
+        colors.add(new Word ("green", "chokokki", R.drawable.number_one, R.raw.number_one));
+        colors.add(new Word ("brown", "ṭakaakki", R.drawable.number_one, R.raw.number_one));
+        colors.add(new Word ("gray", "ṭopoppi", R.drawable.number_one, R.raw.number_one));
+        colors.add(new Word ("black", "kululli", R.drawable.number_one, R.raw.number_one));
+        colors.add(new Word ("white", "kelelli", R.drawable.number_one, R.raw.number_one));
+        colors.add(new Word ("dusty yellow", "ṭopiisә", R.drawable.number_one, R.raw.number_one));
+        colors.add(new Word ("mustard yellow", "chiwiiṭә", R.drawable.number_one, R.raw.number_one));
 
         WordAdapter itemAdapter = new WordAdapter(this, colors);
 

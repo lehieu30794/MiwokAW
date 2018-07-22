@@ -17,16 +17,16 @@ public class PhrasesActivity extends AppCompatActivity {
 
         ArrayList<Word> phrases = new ArrayList<Word>();
 
-        phrases.add(new Word("Where are you going?","minto wuksus"));
-        phrases.add(new Word("What is your name?","tinnә oyaase'nә"));
-        phrases.add(new Word("My name is...","oyaaset..."));
-        phrases.add(new Word("How are you feeling?","michәksәs?"));
-        phrases.add(new Word("I’m feeling good.","kuchi achit"));
-        phrases.add(new Word("Are you coming?","әәnәs'aa?"));
-        phrases.add(new Word("Yes, I’m coming.","hәә’ әәnәm"));
-        phrases.add(new Word("I’m coming.","әәnәm"));
-        phrases.add(new Word("Let’s go.","yoowutis"));
-        phrases.add(new Word("Come here.","әnni'nem"));
+        phrases.add(new Word("Where are you going?","minto wuksus", R.raw.number_one));
+        phrases.add(new Word("What is your name?","tinnә oyaase'nә", R.raw.number_one));
+        phrases.add(new Word("My name is...","oyaaset...", R.raw.number_one));
+        phrases.add(new Word("How are you feeling?","michәksәs?", R.raw.number_one));
+        phrases.add(new Word("I’m feeling good.","kuchi achit", R.raw.number_one));
+        phrases.add(new Word("Are you coming?","әәnәs'aa?", R.raw.number_one));
+        phrases.add(new Word("Yes, I’m coming.","hәә’ әәnәm", R.raw.number_one));
+        phrases.add(new Word("I’m coming.","әәnәm", R.raw.number_one));
+        phrases.add(new Word("Let’s go.","yoowutis", R.raw.number_one));
+        phrases.add(new Word("Come here.","әnni'nem", R.raw.number_one));
 
 /*        phrasesItem.add("Where are you going?");
         phrasesItem.add("What is your name?");
