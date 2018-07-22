@@ -17,16 +17,16 @@ public class FamilyActivity extends AppCompatActivity {
         ArrayList<Word> familyItems = new ArrayList<Word>();
 
 
-        familyItems.add(new Word("father","әpә"));
-        familyItems.add(new Word("mother","әṭa"));
-        familyItems.add(new Word("son","angsi"));
-        familyItems.add(new Word("daugher","tune"));
-        familyItems.add(new Word("older brother","taachi"));
-        familyItems.add(new Word("younger brother","chalitti"));
-        familyItems.add(new Word("older sister","teṭe"));
-        familyItems.add(new Word("younger sister","kolliti"));
-        familyItems.add(new Word("gandmother","ama"));
-        familyItems.add(new Word("grandfather","paapa"));
+        familyItems.add(new Word("father","әpә", R.drawable.number_one));
+        familyItems.add(new Word("mother","әṭa", R.drawable.number_one));
+        familyItems.add(new Word("son","angsi", R.drawable.number_one));
+        familyItems.add(new Word("daugher","tune", R.drawable.number_one));
+        familyItems.add(new Word("older brother","taachi", R.drawable.number_one));
+        familyItems.add(new Word("younger brother","chalitti", R.drawable.number_one));
+        familyItems.add(new Word("older sister","teṭe", R.drawable.number_one));
+        familyItems.add(new Word("younger sister","kolliti", R.drawable.number_one));
+        familyItems.add(new Word("gandmother","ama", R.drawable.number_one));
+        familyItems.add(new Word("grandfather","paapa", R.drawable.number_one));
 
 
       /*  familyMembers.add("father");

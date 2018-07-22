@@ -16,14 +16,14 @@ public class ColorsActivity extends AppCompatActivity {
 
         ArrayList<Word> colors = new ArrayList<Word>();
 
-        colors.add(new Word ("red", "weṭeṭṭi"));
-        colors.add(new Word ("green", "chokokki"));
-        colors.add(new Word ("brown", "ṭakaakki"));
-        colors.add(new Word ("gray", "ṭopoppi"));
-        colors.add(new Word ("black", "kululli"));
-        colors.add(new Word ("white", "kelelli"));
-        colors.add(new Word ("dusty yellow", "ṭopiisә"));
-        colors.add(new Word ("mustard yellow", "chiwiiṭә"));
+        colors.add(new Word ("red", "weṭeṭṭi", R.drawable.number_one));
+        colors.add(new Word ("green", "chokokki", R.drawable.number_one));
+        colors.add(new Word ("brown", "ṭakaakki", R.drawable.number_one));
+        colors.add(new Word ("gray", "ṭopoppi", R.drawable.number_one));
+        colors.add(new Word ("black", "kululli", R.drawable.number_one));
+        colors.add(new Word ("white", "kelelli", R.drawable.number_one));
+        colors.add(new Word ("dusty yellow", "ṭopiisә", R.drawable.number_one));
+        colors.add(new Word ("mustard yellow", "chiwiiṭә", R.drawable.number_one));
 
         WordAdapter itemAdapter = new WordAdapter(this, colors);
 
