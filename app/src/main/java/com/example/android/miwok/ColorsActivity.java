@@ -14,7 +14,7 @@ public class ColorsActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_colors);
 
-        ArrayList<Word> colors = new ArrayList<Word>();
+        final ArrayList<Word> colors = new ArrayList<Word>();
 
         colors.add(new Word ("red", "weṭeṭṭi", R.drawable.number_one, R.raw.number_one));
         colors.add(new Word ("green", "chokokki", R.drawable.number_one, R.raw.number_one));
