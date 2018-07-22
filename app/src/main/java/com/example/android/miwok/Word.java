@@ -64,7 +64,7 @@ public class Word {
         public String getText() {
             return mText;
         }*/
-    public int getmAudioResourceId() {
+    public int getAudioResourceId() {
         return mAudioResourceId;
     }
 
