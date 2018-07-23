@@ -59,6 +59,7 @@ public class NumbersActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_numbers);
 
+
 //        Create and setup the AudioManager to request audio focus
         mAudioManager = (AudioManager) getSystemService(Context.AUDIO_SERVICE);
 
